@@ -68,8 +68,8 @@ jobs:
     scope: RUN_TIME
     value: ${db.DATABASE_URL}
   git:
-    branch: production-3
-    repo_clone_url: https://github.com/codingforentrepreneurs/Try-Django-3.2.git
+    branch: production-4
+    repo_clone_url: https://github.com/Quohen-Leth/Try-Django-3.2.git
   instance_count: 1
   instance_size_slug: basic-xxs
   kind: PRE_DEPLOY
@@ -85,8 +85,8 @@ services:
     scope: RUN_TIME
     value: ${db.DATABASE_URL}
   git:
-    branch: production-3
-    repo_clone_url: https://github.com/codingforentrepreneurs/Try-Django-3.2.git
+    branch: production-4
+    repo_clone_url: https://github.com/Quohen-Leth/Try-Django-3.2.git
   http_port: 8080
   instance_count: 1
   instance_size_slug: basic-xxs
