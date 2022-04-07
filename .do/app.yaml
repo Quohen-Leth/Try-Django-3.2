@@ -17,13 +17,13 @@ envs:
 - key: DJANGO_SUPERUSER_EMAIL
   scope: RUN_AND_BUILD_TIME
   value: yurij_v@ukr.net
-- key: DJANGO_SUPERUSER_USERNAME
-  scope: RUN_AND_BUILD_TIME
-  value: quohen
 - key: DJANGO_SECRET_KEY
   scope: RUN_AND_BUILD_TIME
   type: SECRET
   value: EV[1:kzs1Fi62IvH7oVH6xVOmKpT/I2ujXYJM:ZuzETEXRNOC3iLq5t683+9pqsFwfEGqoSkFJkIZt4F7144G+QWCIzwMoLt7MGeBfRC5L85XI1SDsPgVSdPQp09ve]
+- key: DJANGO_SUPERUSER_USERNAME
+  scope: RUN_AND_BUILD_TIME
+  value: quohen
 - key: DJANGO_SUPERUSER_PASSWORD
   scope: RUN_AND_BUILD_TIME
   type: SECRET
@@ -54,13 +54,6 @@ envs:
 - key: AWS_STORAGE_BUCKET_NAME
   scope: RUN_AND_BUILD_TIME
   value: trydjango32
-- key: OCR_API_TOKEN_HEADER
-  scope: RUN_AND_BUILD_TIME
-  type: SECRET
-  value: EV[1:SjjuB8C+3JScJkhDe6NFYOS19d04Iiw/:LGp9KjNKfBdfHoAZjiVqSmREXLK65XwR/RIFgZYwFi98ayV3ySuQj6je7vNyjPpFzc7RKl4raCmoTvw=]
-- key: OCR_API_ENDPOINT
-  scope: RUN_AND_BUILD_TIME
-  value: https://fastapi-microservice-for-django-d3kjd.ondigitalocean.app
 jobs:
 - environment_slug: python
   envs:
