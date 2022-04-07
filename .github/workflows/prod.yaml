@@ -61,7 +61,7 @@ jobs:
       - name: Push Main Branch into Production
         uses: Quohen-Leth/action-branch-to-branch@main
         with:
-          dest_branch: production-4
+          dest_branch: production-1
           source_branch: main
           commit_message: "Release production version"
         env:
